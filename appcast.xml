@@ -1,8 +1,24 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Paster</title>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Tue, 27 Oct 2026 16:51:27 +0300</pubDate>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Paster 0.1.2
+
+Выбор автоматической проверки и установки в окне обновления теперь сохраняется в настройках Paster и после перезапуска. Уточнено название настройки фоновой загрузки и установки.
+
+Automatic update choices made in the update window now stay in sync with Paster settings and survive relaunch. The background download and installation setting has a clearer label.
+]]></description>
+            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.1.2/Paster-0.1.2.zip" length="1993724" type="application/octet-stream" sparkle:edSignature="sFNUvo96uMzvdGaiYxE4YTEOkKPz0Y7jdB2ZE1TOvOuaOKrNf1AnDTGphAG5C+0hSIp7r2rNImIl2Lbuw2M9Bw=="/>
+        </item>
         <item>
             <title>0.1.1</title>
             <pubDate>Tue, 27 Oct 2026 16:36:11 +0300</pubDate>
@@ -17,10 +33,11 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 
 Paster updates are now available through the built-in update check. The application and updates are signed, and the release is notarized by Apple. Updating preserves clipboard history, snippets, themes, and settings.
 ]]></description>
-            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.1.1/Paster-0.1.1.zip" length="1986757" type="application/octet-stream" sparkle:edSignature="xV1RjgA6YVoobrFDjIrgUGmPACQ4zMxkRIkah86kqVPPj31errwHNdjsBYUUjOd1/06eh1hRLRgTv5B+W0kXCw=="></enclosure>
+            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.1.1/Paster-0.1.1.zip" length="1986757" type="application/octet-stream" sparkle:edSignature="xV1RjgA6YVoobrFDjIrgUGmPACQ4zMxkRIkah86kqVPPj31errwHNdjsBYUUjOd1/06eh1hRLRgTv5B+W0kXCw=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: g3EjYWKhCR5mTKmAJlguGVL1ZULphdMoonqeQSQQpPuGPQfMGLv7wgiK462sCo+P37MAkh95Irii/jV4CvllAA==
-length: 2004
+</rss>
+<!-- sparkle-signatures:
+edSignature: 8GQU6sLDYjMpHVGAtdBz0qpifqbPfWkKLnotl1RFFmyQevhdLovQHV5EdC/NrhiTLZgxT7tNwU1cwEODK+R2Ag==
+length: 3205
 -->
