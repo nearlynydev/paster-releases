@@ -6,6 +6,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Paster</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Tue, 27 Oct 2026 21:02:30 +0300</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Paster 0.2.0
+
+Код распознаётся по словарям десяти языков и признакам синтаксиса. Для отображения используется общая подсветка ключевых слов, строк, комментариев, чисел и типов; предполагаемый язык не показывается.
+
+Расширено распознавание цветов: HEX с прозрачностью, RGB, HSL, HWB, CMYK, Lab/LCH, OKLab/OKLCH, Display P3 и записи UIColor, NSColor и SwiftUI Color. Добавлена подсветка кода, точный счётчик нескольких файлов, настройка ширины и высоты панели, предпросмотр по ⌥ при наведении и ⌘Y, а также нечёткий поиск по старым записям и сниппетам. Всё остаётся в одном списке.
+
+Ссылки показываются без обращения к сайту. Если название страницы уже есть в буфере, оно доступно сразу. Загрузка названия и картинки с сайта требует отдельного подтверждения: такой запрос может активировать одноразовую ссылку. Исходное содержимое для вставки не меняется, прежние настройки сохраняются.
+
+More color formats, code highlighting, accurate multi-file counts, adjustable panel dimensions, Option-hover and Command-Y previews, and fuzzy search across history and snippets. One compact list.
+
+Link previews stay offline until you explicitly confirm a website request. Titles already copied with a link are available without a request. Fetching a preview may activate a one-time link. Original clipboard content and existing settings are preserved.
+]]></description>
+            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.2.0/Paster-0.2.0.zip" length="2249545" type="application/octet-stream" sparkle:edSignature="z3ZrP35Uu53arBZ/SPWEfH2WZ3Iy6/Wy0vjwjqWCU6derPnvZrP3f61/xhFRGXHlj9ShC5egP6TT6+tAzL+IDg=="/>
+        </item>
+        <item>
             <title>0.1.2</title>
             <pubDate>Tue, 27 Oct 2026 16:51:27 +0300</pubDate>
             <sparkle:version>13</sparkle:version>
@@ -38,6 +58,6 @@ Paster updates are now available through the built-in update check. The applicat
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8GQU6sLDYjMpHVGAtdBz0qpifqbPfWkKLnotl1RFFmyQevhdLovQHV5EdC/NrhiTLZgxT7tNwU1cwEODK+R2Ag==
-length: 3205
+edSignature: P6lWC4LCRob7L2mrY0HxiWh8G8qeOguCJUqJeuUdO403gSYLN17iAMWFfF81mOY4178EqrO/jJFeBdi7WmuIAw==
+length: 5885
 -->
