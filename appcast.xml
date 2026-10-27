@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Paster</title>
+        <item>
+            <title>0.1.1</title>
+            <pubDate>Tue, 27 Oct 2026 16:36:11 +0300</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Paster 0.1.1
+
+Обновления Paster теперь доступны через встроенную проверку. Приложение и обновления подписаны, а выпуск проверен Apple. История, сниппеты, темы и настройки сохраняются при установке новой версии.
+
+В этой версии также доступны панель без переключения активного приложения, поиск и вставка с клавиатуры, иконки источников и независимые от истории сниппеты.
+
+Paster updates are now available through the built-in update check. The application and updates are signed, and the release is notarized by Apple. Updating preserves clipboard history, snippets, themes, and settings.
+]]></description>
+            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.1.1/Paster-0.1.1.zip" length="1986757" type="application/octet-stream" sparkle:edSignature="xV1RjgA6YVoobrFDjIrgUGmPACQ4zMxkRIkah86kqVPPj31errwHNdjsBYUUjOd1/06eh1hRLRgTv5B+W0kXCw=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: g3EjYWKhCR5mTKmAJlguGVL1ZULphdMoonqeQSQQpPuGPQfMGLv7wgiK462sCo+P37MAkh95Irii/jV4CvllAA==
+length: 2004
+-->
