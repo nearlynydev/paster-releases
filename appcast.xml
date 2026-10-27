@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Paster</title>
         <item>
+            <title>0.2.1</title>
+            <pubDate>Tue, 27 Oct 2026 21:35:29 +0300</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[Paster 0.2.1
+
+Добавлено восстановление запуска после обновления. Если macOS продолжает выполнять заменённый старый файл, Paster загружает установленный файл заново до открытия библиотеки и обращения к системным разрешениям. Это предотвращает ложный запрос Универсального доступа и открытие окна у мыши в таком состоянии.
+
+Подпись, разрешения и пользовательская библиотека сохраняются. Проверка установки теперь проверяет также фактически выполняемый файл процесса.
+
+Added startup recovery for a replaced executable after an update. Paster reloads the installed image before opening the library or requesting system access, preventing a misleading Accessibility prompt in that state. Release verification now checks the running executable as well as the installed bundle.
+]]></description>
+            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.2.1/Paster-0.2.1.zip" length="2258311" type="application/octet-stream" sparkle:edSignature="MvU6/M+z2xDgjQOhvXdI3tIPJBRHaskyS9Dbrt3A1+zHBUNm/1zP9ERO0ZmrGQXBVMnq7YhMqCKnbXqL3frQBw=="/>
+        </item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Tue, 27 Oct 2026 21:02:30 +0300</pubDate>
             <sparkle:version>15</sparkle:version>
@@ -58,6 +74,6 @@ Paster updates are now available through the built-in update check. The applicat
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: P6lWC4LCRob7L2mrY0HxiWh8G8qeOguCJUqJeuUdO403gSYLN17iAMWFfF81mOY4178EqrO/jJFeBdi7WmuIAw==
-length: 5885
+edSignature: 5nthq2irIAKfy3SSyeycpJs+tpiF8YbHR1w4YHxWq309OZnsl0zQiEdqa0pKr5I5rmAOhEqLzAVwmI2Y1YmrAA==
+length: 7722
 -->
