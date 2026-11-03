@@ -1,4 +1,4 @@
-# Paster for macOS
+# Copusta for macOS
 
 Clipboard history and snippets for macOS 14 and later, on Apple silicon and Intel.
 
