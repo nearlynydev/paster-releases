@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Paster</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 04 Nov 2026 01:47:08 +0300</pubDate>
+            <sparkle:version>60</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Copusta 0.3.0
+
+Paster теперь называется Copusta. История, сниппеты, настройки и выданные разрешения сохраняются.
+
+## Новое
+
+- Подсветка синтаксиса на HighlightSwift с собственным определением «код / не код», включая Bash и распространённые команды. Исправлено отображение HTML и больших фрагментов; подсветку можно отключить в настройках.
+- Предпросмотр следует за выбранной записью и подстраивается под содержимое. Ссылки показываются карточками с изображением, названием и описанием.
+- Мультивыбор через ⌘+клик и вставка одним блоком с настраиваемым разделителем. Перенос строки обозначается ¶; ввод \n тоже поддерживается. Последний разделитель сохраняется.
+- Последовательная вставка через ⌘⇧Return с возможностью изменить сочетание. Вставка выполняется при отпускании Enter, модификаторы можно держать. Новые копирования учитываются в позиции очереди; после пяти минут без последовательной вставки она отключается.
+- Настройки с системными элементами управления, выбором темы и примерами цветов, списком исключённых приложений. Добавлены автозапуск, управление иконкой в строке меню, размерами окна и высотой строк; пример окна реагирует на ползунки.
+- Подсветка строки при наведении мыши с возвратом к выбору клавиатуры после ухода указателя.
+
+## Исправления и улучшения
+
+- Оптимизирован поиск по истории; дополнены переводы ошибок.
+- Улучшено взаимодействие с LayoutFix и исключение служебных операций из истории.
+- Исправлены клавиатурная навигация при предпросмотре, длинные поисковые запросы и ввод разделителя.
+- Окно сразу открывается в настроенном размере и с начала списка. Новые копирования не сбивают прокрутку уже открытого окна.
+- Полоса прокрутки показывается только во время прокрутки.
+
+Для macOS 14 и новее, Apple silicon и Intel.
+]]></description>
+            <enclosure url="https://github.com/nearlynydev/paster-releases/releases/download/v0.3.0/Copusta-0.3.0.zip" length="5284185" type="application/octet-stream" sparkle:edSignature="2Xqh0VjSosEzzhIU/bTMOGaklABu+ZMZtR+O/OF8kJWZK46xa+SwfLksZnZrZ/DopYM+HtzgTU9vMq2t7BjtAw=="/>
+        </item>
+        <item>
             <title>0.2.1</title>
             <pubDate>Tue, 27 Oct 2026 21:35:29 +0300</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -74,6 +105,6 @@ Paster updates are now available through the built-in update check. The applicat
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 5nthq2irIAKfy3SSyeycpJs+tpiF8YbHR1w4YHxWq309OZnsl0zQiEdqa0pKr5I5rmAOhEqLzAVwmI2Y1YmrAA==
-length: 7722
+edSignature: nTAHd1+vVptyVBP6JgVwBCZkV8wSfwBqglydvW0ik/QA+uzdiivGCtOT4CxYYgbqknbAYliPo+kSlHix0ch+AQ==
+length: 11536
 -->
